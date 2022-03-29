@@ -14,9 +14,17 @@ With the growth of online shopping, it has become important to understand the fa
 
 importing the necessary libraries and the data
 
+![1](https://user-images.githubusercontent.com/99526815/160539233-7899b218-1d86-4dfb-9353-e08ad4c26739.PNG)
+
+![2](https://user-images.githubusercontent.com/99526815/160539303-e8b06647-d25d-4660-b1a1-3d070cb3ae45.PNG)
+
 Now let’s apply the K-elbow method to determine the number of clustering groups:
 
+![3](https://user-images.githubusercontent.com/99526815/160539330-839ee736-fdbf-4756-9e7b-b4ef8c8d85a5.PNG)
+
 K Means Clustering
+
+![4](https://user-images.githubusercontent.com/99526815/160539345-91b19b52-fefc-4791-a1a3-8e09765d8b19.PNG)
 
 According to the graph above, the maximum curvature is at the second index, that is, the number of optimal clustering groups for the duration of the product and the bounce rates is 2. Once the number of clusterings determined, we apply the K Means method and plot the clusters:
 
@@ -24,6 +32,9 @@ Looking at this K Means grouping plot, we can say with certainty that customers 
 
 Since K-Means is not a supervised learning method, we are adopting other ways of evaluating its clustering result. The leftmost column of the confusion matrix represents the actual label (True or False revenue), and the top row represents the expected clustering groups (uninterested customers or target customers):
 
+![5](https://user-images.githubusercontent.com/99526815/160539424-078ba086-bd21-492f-ac53-c9ff01964edf.PNG)
+
+![6](https://user-images.githubusercontent.com/99526815/160539438-e26b0f9a-9537-45ae-bd56-fed0c5d4b68d.PNG)
 
 ## Observations From Above Plots
 
